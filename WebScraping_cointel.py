@@ -53,7 +53,7 @@ final_text = ' '.join([w for w in clean_words])
 # Creates a mask (bitcoin format image)
 bitcoin_mask = np.array(Image.open("bitcoin.png"))
 
-# Transform array values when 0 to 255 (255 are pure white, needed that to get the shape of the coin) 
+# Transform array values 0 to 255 (255 are pure white, needed that to get the shape of the coin) 
 bitcoin_mask[bitcoin_mask == 0] = 255
 
 # Build and plot wordcloud
