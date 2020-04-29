@@ -1,6 +1,6 @@
 # Web Scraping and Wordcloud
 
-In this project I used python Web Scraping to create a wordcloud with the content of 10 recent articles from Coin Telegraph website (https://cointelegraph.com/).
+In this project I used python Web Scraping to create a wordcloud with the trend words of 10 recent articles content from Coin Telegraph website (https://cointelegraph.com/).
 
 Result:
 
