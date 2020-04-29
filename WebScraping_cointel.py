@@ -12,8 +12,7 @@ from nltk.tokenize import RegexpTokenizer
 from PIL import Image
 from wordcloud import WordCloud, ImageColorGenerator
 
-
-# First connect to the website cointelegraph.com
+# First collect the html content from the homepage website cointelegraph.com
 url = "https://cointelegraph.com"
 html = urlopen(url)
 soup = BeautifulSoup(html, 'lxml')
