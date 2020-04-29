@@ -51,7 +51,7 @@ final_text = ' '.join([w for w in clean_words])
 
 ## Wordcloud 
 # Creates a mask (bitcoin format image)
-bitcoin_mask = np.array(Image.open("C:/Users/joaop/Documents/Python Scripts/bitcoin.png"))
+bitcoin_mask = np.array(Image.open("bitcoin.png"))
 
 # Transform array values when 0 to 255 (255 are pure white, needed that to get the shape of the coin) 
 bitcoin_mask[bitcoin_mask == 0] = 255
@@ -65,7 +65,6 @@ plt.axis("off")
 plt.show()
 
 # Saving wordcloud image
-path = 'C:/Users/joaop/Documents/Python Scripts/'
-wordcloud.to_file(path + "bitcoin_wordcloud.png")
+wordcloud.to_file("bitcoin_wordcloud.png")
 
 
