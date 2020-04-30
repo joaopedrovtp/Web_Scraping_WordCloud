@@ -2,7 +2,7 @@
 
 In this project I used python Web Scraping to create a wordcloud with the trending words of 10 recent articles content from Coin Telegraph website (https://cointelegraph.com/). It's a media website covering blockchain technology and crypto assets.
 
-For that I used libraries like Beautiful Soup(web scraping), NLTK (Natural languague processing), worldcloud, etc.
+For that I used libraries like Beautiful Soup(web scraping), NLTK (Natural languague processing) and worldcloud(https://github.com/amueller/word_cloud).
 
 Result:
 
