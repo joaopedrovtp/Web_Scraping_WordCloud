@@ -8,4 +8,4 @@ Result:
 
 ![Bitcoin Wordcloud](bitcoin_wordcloud.png)
 
-That was just for fun, but what if I say that someday I want to know the trending topics from this page or maybe any website. That would be great! My thanks to @DataScienceAcademy and @Datacamp for the helping content :)
+That was just for fun, but what if I say that someday I want to know the trending topics from this page or maybe any website? That would be great! My thanks to @DataScienceAcademy and @Datacamp for the helping content :)
