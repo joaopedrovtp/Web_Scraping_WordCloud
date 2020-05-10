@@ -1,5 +1,6 @@
 ## Make a WorldCloud of 10 recent articles content from Coin Telegraph site.
 
+# Import libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
